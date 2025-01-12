@@ -1,6 +1,6 @@
 {
     "manufacturer": "alex",
-    "keyboard_name": "alexmacropad",
+    "keyboard_name": "alexnumpad",
     "maintainer": "alex",
     "bootloader": "rp2040",
     "matrix_pins": {
@@ -16,7 +16,7 @@
     "processor": "RP2040",
     "usb": {
         "device_version": "0.0.1",
-        "pid": "0x2937",
+        "pid": "0x0001",
         "vid": "0x4111"
     },
     "features": {

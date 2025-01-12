@@ -1,20 +1,20 @@
 # alexmacropad
 
-![alexmacropad](imgur.com image replace me!)
+![alexnumpad](https://i.imgur.com/v8FVYux.jpeg)
 
 *A short description of the keyboard/project*
 
 * Keyboard Maintainer: [AlexMaroiu](https://github.com/AlexMaroiu)
-* Hardware Supported: *The PCBs, controllers supported*
+* Hardware Supported: Hand-wired with official raspberry pi pico
 * Hardware Availability: *Links to where you can find this hardware*
 
 Make example for this keyboard (after setting up your build environment):
 
-    qmk compile -kb alexmacropad/rev1 -km default
+    qmk compile -kb alexnumpad/rev1 -km default
 
 Flashing example for this keyboard:
 
-    qmk flash -kb alexamacropad/rev1 -km via
+    qmk flash -kb alexanumpad/rev1 -km via
 
 See the [build environment setup](https://docs.qmk.fm/#/getting_started_build_tools) and the [make instructions](https://docs.qmk.fm/#/getting_started_make_guide) for more information. Brand new to QMK? Start with our [Complete Newbs Guide](https://docs.qmk.fm/#/newbs).
 
