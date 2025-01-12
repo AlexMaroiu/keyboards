@@ -1,0 +1,29 @@
+{
+    "manufacturer": "alex",
+    "keyboard_name": "alexmacropad",
+    "maintainer": "alex",
+    "bootloader": "rp2040",
+    "matrix_pins": {
+        "direct": [
+            ["GP0", "GP1", "GP2", "GP3"],
+            ["GP4", "GP5", "GP6", "GP7"],
+            ["GP8", "GP9", "GP10", "GP11"],
+            ["GP12", "GP13", "GP14", null],
+            ["GP15", "GP16", "GP17", null],
+            ["GP20", "GP19", "GP18", null]
+        ]
+    },
+    "processor": "RP2040",
+    "usb": {
+        "device_version": "0.0.1",
+        "pid": "0x2937",
+        "vid": "0x4111"
+    },
+    "features": {
+        "bootmagic": true,
+        "extrakey": true,
+        "mousekey": true,
+        "nkro": true,
+        "oled": true
+    }
+}
