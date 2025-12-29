@@ -30,9 +30,11 @@ jobs:
           cache-dependency-path: web-docs/package-lock.json
 
       - name: Install dependencies
+        working-directory: web-docs
         run: npm ci
 
       - name: Build
+        working-directory: web-docs
         run: npm run build
 
       - name: Upload Pages artifact
