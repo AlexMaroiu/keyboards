@@ -1,39 +1,16 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
 import './App.css'
+import Home from './pages/Home'
+import Wired from './pages/Wired'
+import Wireless from './pages/Wireless'
+import { Route, Routes } from 'react-router-dom'
 
-
-function Section({ title, children }) {
-  return (
-    <section>
-      <h2>{title}</h2>
-      {children}
-    </section>
-  )
-}
 
 export default function App() {
   return (
-    <main>
-      <h1>Instruction Manual</h1>
-
-      <Section title="Overview">
-        <p>Custom mechanical keyboard using QMK firmware.</p>
-      </Section>
-
-      <Section title="Layers">
-        <ul>
-          <li>Base Layer</li>
-          <li>Function Layer</li>
-          <li>Media Layer</li>
-        </ul>
-      </Section>
-
-      <Section title="Key Combos">
-        <p><strong>Fn + J</strong> → Left Arrow</p>
-        <p><strong>Fn + L</strong> → Right Arrow</p>
-      </Section>
-    </main>
+    <Routes>
+      <Route path="/" element={<Home />} />
+      <Route path="/wired" element={<Wired />} />
+      <Route path="/wireless" element={<Wireless />} />
+    </Routes>
   )
 }
