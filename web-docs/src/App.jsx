@@ -16,7 +16,7 @@ function Section({ title, children }) {
 export default function App() {
   return (
     <main>
-      <h1>My Keyboard Documentation</h1>
+      <h1>Instruction Manual</h1>
 
       <Section title="Overview">
         <p>Custom mechanical keyboard using QMK firmware.</p>
